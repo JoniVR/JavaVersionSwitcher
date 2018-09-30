@@ -28,6 +28,10 @@ then
     exit 1
 fi
 
+echo "Your current Java version: "
+Java --version
+echo "------------------------------------------------------"
+
 echo "Select a Java version you want to use:"
 
 # Collect the folders in the array $folders
@@ -98,5 +102,8 @@ do
 done
 
 echo "Done!"
+echo "------------------------------------------------------"
+echo "Your new Java version: "
+Java --version
 
 exit 0
