@@ -29,7 +29,7 @@ then
 fi
 
 echo "Your current Java version: "
-Java --version
+Java -version
 echo "------------------------------------------------------"
 
 echo "Select a Java version you want to use:"
@@ -104,6 +104,6 @@ done
 echo "Done!"
 echo "------------------------------------------------------"
 echo "Your new Java version: "
-Java --version
+Java -version
 
 exit 0
